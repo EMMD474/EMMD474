@@ -68,7 +68,9 @@ An AI-assisted planner that helps distribute tasks across a week based on import
 - Kotlin mobile development
 - Secure messaging and software design
 - Better backend architecture and system design
-
+- Computer Organization and Architecture
+- IOT Fundamentals
+- Networking
 ---
 
 ## 📊 GitHub Stats
