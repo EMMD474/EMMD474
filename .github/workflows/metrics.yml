@@ -1,0 +1,23 @@
+name: Profile Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: EMMD474
+          filename: github-metrics.svg
+          base: "header, activity, community, repositories, metadata"
+          base_indepth: yes

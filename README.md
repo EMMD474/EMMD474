@@ -76,7 +76,7 @@ An AI-assisted planner that helps distribute tasks across a week based on import
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EMMD474&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img src="github-metrics.svg" alt="GitHub Metrics (commits, PRs, issues incl. private)" />
 </p>
 
 <p align="center">
